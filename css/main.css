@@ -300,3 +300,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+ .contact-me-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-me-item{
+    font-size: 20px;
+    font-family: Arvo;
+}

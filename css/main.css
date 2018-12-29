@@ -41,7 +41,6 @@ body{
 
 .banner{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/hero-area.jpg");
-    opacity: 13;
     background-attachment: fixed;
     background-position: center;
     display: flex;
@@ -146,4 +145,114 @@ body{
     text-align: center;
     margin: 0 auto;
     vertical-align: middle;
+}
+
+.responsibilities-background{
+    margin-top: 5%;
+    background: #f0f0f0;
+}
+
+.responsibilities{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background: #f0f0f0;
+    padding: 0;
+}
+
+.responsibility{
+    width: 15%;
+    height: 30%;
+    border-radius: 4px;
+    padding: 48px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    margin: 50px;
+    font-size: 15px;
+    font-family: Arvo;
+}
+.responsibility-article{
+    margin-top: 0;
+}
+
+.responsibility-description{
+    margin-top: 30px;
+}
+
+.education-experiense{
+    padding-top: 5%;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.education, .experiense{
+    width: 50%;
+}
+
+.education-list, .experiense-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.icon-graduation{
+    color: #666;
+    border-radius: 20px;
+    box-sizing: border-box;
+    line-height: 25px;
+    overflow-x: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    line-height: 25px;
+}
+
+.education-item, .experiense-item{
+    width:100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.icon-graduate{
+    font-size: 48px;
+}
+.lower-banner{
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/banner1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.icon-graduate-white{
+    font-size: 48px;
+    color:white;
+}
+
+.lower-banner-content{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+}
+
+.lower-banner-content-list{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.lower-banner-text-header{
+    font-size: 40px;
+    font-family: B612 Mono;
+}
+
+.lower-banner-text-body{
+    font-family: B612 Mono;
 }

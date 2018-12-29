@@ -6,6 +6,7 @@
         <link href='https://fonts.googleapis.com/css?family=Major+Mono+Display' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=B612+Mono' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="js/scroll.min.js"></script>
     </head>
 
 <body>
@@ -13,17 +14,16 @@
         <div class="logo"><img src="img/logo.png"></div>
         
         <ul class="header-menu">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/">ABOUT</a></li>
-            <li><a href="/">SERVICES</a></li>
-            <li><a href="/">RESUME</a></li>
-            <li><a href="/">WORK</a></li>
-            <li><a href="/">CONTACT</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#bio">BIO</a></li>
+            <li><a href="#technologies">TECHNOLOGIES</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contacts">CONTACTS</a></li>
         </ul>
 
     </div>
     
-    <div class="banner">
+    <div class="banner scroll" id="home">
         <div class="banner-content">
             <div class="text">
                 <p>Hi I am Poliit Dmytro</p>
@@ -37,7 +37,7 @@
         </div>        
     </div>
 
-    <div class="bio">
+    <div class="bio scroll" id="bio">
         <div class="image">
             <img src="img/about/about-1.jpg">
         </div>
@@ -75,7 +75,7 @@
             
         </div>
     </div>
-    <div class="responsibilities-background">
+    <div class="responsibilities-background scroll" id="technologies">
         <ul class="responsibilities">
             <li class="responsibility">
                 <h2 class="responsibility-article">Html / Css</h2>
@@ -98,13 +98,13 @@
             <li class="responsibility">
                 <h2 class="responsibility-article">Other</h2>
                 <div class="responsibility-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.
+                    Ubuntu, Docker, Postman, GitLab, PHPStorm, Filezilla
                 </div>
             </li>
         </ul>
     </div>
     
-    <div class="education-experiense">
+    <div class="education-experiense scroll" id="education">
         <div class="education">
             <span class="icon-graduate">
                     <i class="fas fa-user-graduate"></i>
@@ -186,7 +186,7 @@
     </div>
 
     
-    <div class="contact-me">
+    <div class="contact-me scroll" id="contacts">
             <span class="contact-me-header">My contacts</span>
             <div class="contact-me-item">
                 <span class="icon-graduate">
